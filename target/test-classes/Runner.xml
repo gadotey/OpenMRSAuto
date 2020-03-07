@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Framework" parallel="tests">
+    <test name="Chrome Local">
+        <parameter name="browserName" value="chrome"/>
+
+        <classes>
+<!--            <class name="tests.LoginPageTest"/>-->
+<!--            <class name="tests.InvalidLoginTest"/>-->
+<!--            <class name="tests.DashboardItemsTest"/>-->
+                <class name="tests.FindPatientRecordTest"/>
+
+
+
+            </classes>
+
+        </test>
+
+
+
+        <!--    Parallel test in Firefox-->
+    <!--    <test name="Firefox Local">-->
+    <!--        <parameter name="browserName" value="firefox"/>-->
+
+    <!--        <classes>-->
+    <!--            <class name="tests.Main"/>-->
+    <!--        </classes>-->
+
+    <!--    </test>-->
+
+
+
+</suite>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6334de0e-9b6e-4dff-9f33-5348a89675f8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YcxCU96s2vpfJ9BnBu03f5LlYJ" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/base" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\base" />
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto" />
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\resources" />
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\java\pages" />
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\java\tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Dashboard" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test" />
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\manager" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml">
+    <configuration name="C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenMRSAuto" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindPatientRecordTest.PatientRecord" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenMRSAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.FindPatientRecordTest" />
+      <option name="METHOD_NAME" value="PatientRecord" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.invalidLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenMRSAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginPageTest" />
+      <option name="METHOD_NAME" value="invalidLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml" />
+        <item itemvalue="TestNG.FindPatientRecordTest.PatientRecord" />
+        <item itemvalue="TestNG.LoginPageTest.invalidLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6334de0e-9b6e-4dff-9f33-5348a89675f8" name="Default Changelist" comment="" />
+      <created>1583255555639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583255555639</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Inspections" timestamp="1583347766763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Inspections/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583347766763" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583257907625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583257907625" />
+    <state x="693" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583430557769">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583430557769" />
+    <state x="694" y="10" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583352825734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="694" y="10" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583352825734" />
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1583431868533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="246" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583431868533" />
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom" timestamp="1583442049697">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049697" />
+    <state width="1877" height="343" key="GridCell.Tab.0.center" timestamp="1583442049696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049696" />
+    <state width="1877" height="343" key="GridCell.Tab.0.left" timestamp="1583442049696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049696" />
+    <state width="1877" height="343" key="GridCell.Tab.0.right" timestamp="1583442049696">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049696" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583425716960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583425716960" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583425716960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583425716960" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583425716960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583425716960" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583425716960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583425716960" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1583256884298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583256884298" />
+    <state x="461" y="162" width="998" height="776" key="SettingsEditor" timestamp="1583431752591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" width="998" height="776" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583431752591" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583255572225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583255572225" />
+    <state x="507" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583422698469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="507" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583422698469" />
+    <state x="552" y="178" key="scopes" timestamp="1583347549645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="scopes/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583347549645" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/GooglePage.java</url>
+          <line>36</line>
+          <properties class="pages.GooglePage" method="isOnResultPage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/FindPatientRecordTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
