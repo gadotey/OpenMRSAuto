@@ -5,20 +5,20 @@
         <parameter name="browserName" value="chrome"/>
 
         <classes>
-<!--            <class name="tests.LoginPageTest"/>-->
+           <class name="tests.LoginPageTest"/>
 <!--            <class name="tests.InvalidLoginTest"/>-->
 <!--            <class name="tests.DashboardItemsTest"/>-->
-                <class name="tests.FindPatientRecordTest"/>
+    <!--                 <class name="tests.FindPatientRecordTest"/>-->
 
 
 
-            </classes>
+                </classes>
 
-        </test>
+            </test>
 
 
 
-        <!--    Parallel test in Firefox-->
+            <!--    Parallel test in Firefox-->
     <!--    <test name="Firefox Local">-->
     <!--        <parameter name="browserName" value="firefox"/>-->
 
