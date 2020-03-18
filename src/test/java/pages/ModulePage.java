@@ -5,28 +5,30 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Created by Gadotey on 3/4/2020
  */
-public class LoginPage extends BaseUtil {
+public class ModulePage extends BaseUtil {
 
 
     private WebDriver driver;
     //private WebDriverWait wait;
 
     //Constructor
-    public LoginPage(WebDriver driver) {
+    public ModulePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         // wait = new WebDriverWait(driver, 10);
     }
 
-    @FindBy(id = "authUser")
-    WebElement userName;
+    @FindBy(xpath = "//*[@id=\"menu_logo\"]/div/div/span[7]/div/div")
+    WebElement modulesTab;
 
-    @FindBy(id = "clearPass")
-    WebElement Password;
+    @FindBy(xpath = "//div[contains(text(),'Manage Modules')]")
+    WebElement manageModules;
 
     @FindBy(xpath = "//option[5]")
     WebElement  locationField;
@@ -41,12 +43,12 @@ public class LoginPage extends BaseUtil {
     WebElement  unsuccessfulLoginMessage;
 
 
-    public void LoginToDashboard(String admin, String input) {
-        // wait.until(ExpectedConditions.elementToBeClickable(searchField));
-        userName.sendKeys(admin);
-        Password.sendKeys(input);
+    public void ManageModulePage() {
+        //wait.until(ExpectedConditions.elementToBeClickable(searchField));
+        modulesTab.click();
+        manageModules.click();
         //locationField.click();
-        loginBtn.click();
+        //loginBtn.click();
     }
 
     public String successfulLoginMessage() {
@@ -54,14 +56,6 @@ public class LoginPage extends BaseUtil {
         return displayMessage(successfulLoginMessage, successfulLoginMessage.getText());
     }
 
-    public void InvalidLoginToDashboard(String admin, String input) {
-        // wait.until(ExpectedConditions.elementToBeClickable(searchField));
-        userName.sendKeys(admin);
-        Password.sendKeys(input);
-        locationField.click();
-        loginBtn.click();
-
-    }
 
     public String unsuccessfulLoginMessage() {
         // wait.until(ExpectedConditions.visibilityOf(searchResult));

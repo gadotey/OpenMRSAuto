@@ -14,11 +14,11 @@ public class LoginPageTest extends BaseUtil {
     @Test()
     public void validLogin() {
         LoginPage login = new LoginPage(driver);
-        login.LoginToDashboard("Admin", "Admin123");
+        login.LoginToDashboard("physician", "physician");
 
-        String successfulLoginMessage = "Logged in as Super User (admin) at Registration Desk.";
+        String successfulLoginMessage = "";
         Assert.assertEquals(login.successfulLoginMessage(),
-                "Logged in as Super User (admin) at Registration Desk.");
+                "");
     }
 
 }

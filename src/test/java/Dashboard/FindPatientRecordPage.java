@@ -1,12 +1,16 @@
 package Dashboard;
 
 import base.BaseUtil;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 /**
  * Created by Gadotey on 3/4/2020
@@ -15,6 +19,7 @@ public class FindPatientRecordPage extends BaseUtil {
 
     private WebDriver driver;
     private WebDriverWait wait;
+    private Object WebElement;
 
     //Constructor
     public FindPatientRecordPage(WebDriver driver) {
@@ -38,13 +43,16 @@ public class FindPatientRecordPage extends BaseUtil {
     @FindBy(xpath = "//div[contains(text(),'Name')]")
     WebElement  NameSearch;
 
+    @FindBy(id = "patient-search-results")
+    public List<WebElement>  findPatient;
+
 
     public void searchPatientRecord(String input) {
         wait.until(ExpectedConditions.elementToBeClickable(findPatientsRecord));
         findPatientsRecord.click();
         patientSearch.sendKeys(input);
         wait.until(ExpectedConditions.elementToBeClickable(patientSearch));
-        searchResults.click();
+        //searchResults.click();
 
     }
 
