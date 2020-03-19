@@ -14,11 +14,21 @@ public class LoginPageTest extends BaseUtil {
     @Test()
     public void validLogin() {
         LoginPage login = new LoginPage(driver);
-        login.LoginToDashboard("physician", "physician");
+        login.LoginToDashboard("admin", "pass");
 
         String successfulLoginMessage = "";
         Assert.assertEquals(login.successfulLoginMessage(),
                 "");
+    }
+
+    @Test()
+    public void invalidLogin() {
+        LoginPage login = new LoginPage(driver);
+        login.InvalidLoginToDashboard("admin", "admin");
+
+        String unsuccessfulLoginMessage = "Invalid username or password";
+        Assert.assertEquals(login.successfulLoginMessage(),
+                "Invalid username or password");
     }
 
 }

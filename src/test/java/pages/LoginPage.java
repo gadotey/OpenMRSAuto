@@ -37,7 +37,7 @@ public class LoginPage extends BaseUtil {
     @FindBy(id = "username")
     WebElement  successfulLoginMessage;
 
-    @FindBy(id = "error-message")
+    @FindBy(xpath = "//div[@class='alert alert-danger login-failure m-1']")
     WebElement  unsuccessfulLoginMessage;
 
 
@@ -54,10 +54,10 @@ public class LoginPage extends BaseUtil {
         return displayMessage(successfulLoginMessage, successfulLoginMessage.getText());
     }
 
-    public void InvalidLoginToDashboard(String admin, String input) {
+    public void InvalidLoginToDashboard(String admin1, String input1) {
         // wait.until(ExpectedConditions.elementToBeClickable(searchField));
-        userName.sendKeys(admin);
-        Password.sendKeys(input);
+        userName.sendKeys(admin1);
+        Password.sendKeys(input1);
         locationField.click();
         loginBtn.click();
 
