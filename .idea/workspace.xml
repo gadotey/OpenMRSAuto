@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6334de0e-9b6e-4dff-9f33-5348a89675f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EMRDashboardItemsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/EMRDashboardItemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +28,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Gadotey &lt;gadotey@outlook.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="openEMRBranch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -45,19 +64,21 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test" />
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\manager" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+      <recent name="pages" />
+      <recent name="Dashboard" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\base" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\resources" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\java\pages" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\java\tests" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Dashboard" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test" />
-      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\manager" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml">
@@ -109,9 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginPageTest.invalidLogin" />
+        <item itemvalue="TestNG.FindPatientRecordTest.PatientRecord" />
+        <item itemvalue="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml" />
         <item itemvalue="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml" />
         <item itemvalue="TestNG.FindPatientRecordTest.PatientRecord" />
-        <item itemvalue="TestNG.LoginPageTest.invalidLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583545236632</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed the project URL and corrected all pages">
+      <created>1584502180843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584502180843</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +171,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -149,13 +181,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes in the Runner.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in the Runner.xml file" />
+    <MESSAGE value="Changed the project URL and corrected all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the project URL and corrected all pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1583347766763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583347766763" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584635315537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584499343147" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584635315537" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1583257907625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -172,34 +210,39 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="10" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583352825734" />
-    <state x="929" y="294" key="CommitChangelistDialog2" timestamp="1583545235441">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="593" y="174" key="CommitChangelistDialog2" timestamp="1584654891256">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="593" y="174" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584654891256" />
     <state x="929" y="294" key="CommitChangelistDialog2/0.0.2560.1400/2560.230.1920.1160/0.-1200.1920.1160@0.0.2560.1400" timestamp="1583545235441" />
     <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1583431868533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="246" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583431868533" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1583546118309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom" timestamp="1584654644136">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584654644136" />
     <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.230.1920.1160/0.-1200.1920.1160@0.0.2560.1400" timestamp="1583546118309" />
-    <state width="1877" height="343" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049697" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1583546118309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="331" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584635081771" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center" timestamp="1584654644136">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584654644136" />
     <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400/2560.230.1920.1160/0.-1200.1920.1160@0.0.2560.1400" timestamp="1583546118309" />
-    <state width="1877" height="343" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049696" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1583546118309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="331" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584635081771" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left" timestamp="1584654644136">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584654644136" />
     <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400/2560.230.1920.1160/0.-1200.1920.1160@0.0.2560.1400" timestamp="1583546118309" />
-    <state width="1877" height="343" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049696" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1583546118309">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="331" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584635081770" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right" timestamp="1584654644136">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="331" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584654644136" />
     <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400/2560.230.1920.1160/0.-1200.1920.1160@0.0.2560.1400" timestamp="1583546118309" />
-    <state width="1877" height="343" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583442049696" />
+    <state width="1877" height="331" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584635081771" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583425716960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,18 +268,33 @@
     </state>
     <state x="615" y="218" key="SettingsEditor/0.0.2560.1400/2560.230.1920.1160/0.-1200.1920.1160@0.0.2560.1400" timestamp="1583544626013" />
     <state x="461" y="162" width="998" height="776" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583431752591" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1583255572225">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584496742128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583255572225" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584496742128" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584113060177" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584545341930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584502272251" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584545341930" />
     <state x="507" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583422698469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="507" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583422698469" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1584499237508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584499237508" />
     <state x="552" y="178" key="scopes" timestamp="1583347549645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="scopes/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583347549645" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584644723493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584578141042" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584644723493" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,11 +306,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/FindPatientRecordTest.java</url>
