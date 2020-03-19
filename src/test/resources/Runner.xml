@@ -5,10 +5,12 @@
         <parameter name="browserName" value="chrome"/>
 
         <classes>
-            <class name="tests.LoginPageTest"/>
-            <class name="tests.InvalidLoginTest"/>
-            <class name="tests.DashboardItemsTest"/>
-            <class name="tests.FindPatientRecordTest"/>
+            <!-- <class name="tests.LoginPageTest"/>-->
+            <class name="tests.EMRDashboardItemsTest"/>
+            <!--              <class name="tests.ModuleTest"/>-->
+            <!--            <class name="tests.InvalidLoginTest"/>-->
+            <!--            <class name="tests.DashboardItemsTest"/>-->
+            <!--             <class name="tests.FindPatientRecordTest"/>-->
 
 
 
