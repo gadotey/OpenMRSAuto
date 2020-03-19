@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6334de0e-9b6e-4dff-9f33-5348a89675f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EMRDashboardItemsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/EMRDashboardItemsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +52,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/tests" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test" />
-      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\manager" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tests" />
-      <recent name="pages" />
-      <recent name="Dashboard" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\base" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\resources" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\java\pages" />
       <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test\java\tests" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+      <recent name="pages" />
+      <recent name="Dashboard" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\test" />
+      <recent name="C:\Users\Gadotey\IdeaProjects\OpenMRSAuto\src\main\java\manager" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml">
@@ -133,7 +125,7 @@
         <item itemvalue="TestNG.LoginPageTest.invalidLogin" />
         <item itemvalue="TestNG.FindPatientRecordTest.PatientRecord" />
         <item itemvalue="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml" />
-        <item itemvalue="TestNG.C:/Users/Gadotey/IdeaProjects/OpenMRSAuto/src/test/resources/Runner.xml" />
+        <item itemvalue="TestNG.LoginPageTest.invalidLogin" />
         <item itemvalue="TestNG.FindPatientRecordTest.PatientRecord" />
       </list>
     </recent_temporary>
@@ -263,6 +255,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583256884298" />
+    <state x="184" y="85" key="MergeDialog" timestamp="1584657893303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584657893303" />
+    <state x="672" y="235" key="MultipleFileMergeDialog" timestamp="1584657893319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584657893319" />
     <state x="615" y="218" width="998" height="776" key="SettingsEditor" timestamp="1583544626013">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -282,6 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="507" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583422698469" />
+    <state x="711" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584657879183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584657879183" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1584499237508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
