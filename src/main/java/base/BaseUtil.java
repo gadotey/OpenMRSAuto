@@ -23,7 +23,7 @@ public class BaseUtil {
     public void setUp(@Optional String browserName) {
         getLocalDriver(browserName);
         //driver.manage().window().maximize();
-        driver.navigate().to("https://demo.openmrs.org/openmrs/login.htm");
+        driver.navigate().to("https://demo.openemr.io/a/openemr/interface/login/login.php?site=default");
     }
 
     public WebDriver getLocalDriver(String browserName) {

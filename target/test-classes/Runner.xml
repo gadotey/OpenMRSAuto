@@ -5,8 +5,8 @@
         <parameter name="browserName" value="chrome"/>
 
         <classes>
-            <!-- <class name="tests.LoginPageTest"/>-->
-            <class name="tests.EMRDashboardItemsTest"/>
+            <class name="tests.LoginPageTest"/>
+           <!--><class name="tests.EMRDashboardItemsTest"/>-->
             <!--              <class name="tests.ModuleTest"/>-->
             <!--            <class name="tests.InvalidLoginTest"/>-->
             <!--            <class name="tests.DashboardItemsTest"/>-->

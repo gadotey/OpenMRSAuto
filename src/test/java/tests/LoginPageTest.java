@@ -16,9 +16,9 @@ public class LoginPageTest extends BaseUtil {
         LoginPage login = new LoginPage(driver);
         login.LoginToDashboard("admin", "pass");
 
-        String successfulLoginMessage = "";
+        String successfulLoginMessage = "Patient: None";
         Assert.assertEquals(login.successfulLoginMessage(),
-                "");
+                "Patient: None");
     }
 
     @Test()
@@ -27,7 +27,7 @@ public class LoginPageTest extends BaseUtil {
         login.InvalidLoginToDashboard("admin", "admin");
 
         String unsuccessfulLoginMessage = "Invalid username or password";
-        Assert.assertEquals(login.successfulLoginMessage(),
+        Assert.assertEquals(login.unsuccessfulLoginMessage(),
                 "Invalid username or password");
     }
 

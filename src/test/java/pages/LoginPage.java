@@ -34,7 +34,7 @@ public class LoginPage extends BaseUtil {
     @FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
     WebElement loginBtn;
 
-    @FindBy(id = "username")
+    @FindBy(xpath = "//div[contains(text(),'Patient:')]")
     WebElement  successfulLoginMessage;
 
     @FindBy(xpath = "//div[@class='alert alert-danger login-failure m-1']")
